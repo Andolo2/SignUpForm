@@ -1,0 +1,137 @@
+:root
+{
+    --font: font-family: 'Poppins', sans-serif; font-family: 'Roboto Mono', monospace;
+}
+
+body
+{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-repeat:no-repeat;
+    margin: 0;
+    height: 100vh;
+    
+    
+
+    background-color: #F4F4F4;
+    
+    
+    
+    
+
+}
+
+body > div.content-container-left
+{
+    background-image: url(backdrop.jpg);
+
+    grid-column: 1 / 4 ;
+    grid-row: 1 / -1;
+    
+   
+}
+
+body > div.content-container-right
+{
+    grid-column: 4 / 9;
+    grid-row: 2 / 3;
+    
+    background-color: white;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+    
+}
+
+body > div.header-container
+{
+    grid-column: 5 / 8;
+    margin: 5%;
+    
+}
+
+#large-header
+{
+    margin-bottom: 5%;
+}
+
+.col-one
+{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.col-two
+{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+body > div.content-container-right > div > div.form-input > form
+{
+    display: flex;
+    margin: 5%;
+    
+    
+}
+
+.button-container
+{
+    margin-left: 10%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.button-container
+{
+  
+   
+}
+
+.button-container > button
+{
+    background-color: #596D48;
+    color: white;
+    padding: 15px 35px;
+    
+}
+
+.button-container > button:hover
+{
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    
+}
+
+.logo-container
+{
+    grid-column: 1 / 4;
+    grid-row: 2 / 2;
+    color: white;
+    background-color: black;
+    opacity: 1;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+body > div.logo-container > p
+{
+    
+}
